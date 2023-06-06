@@ -23,8 +23,8 @@ type AmateurRadioLog struct {
     Time       string `json:"time"`        //通联时间
     Frequency  int    `json:"frequency"`   //通联频率（MHz）
     Mode       string `json:"mode"`        //通联模式（例如，LSB，CW等）
-    Name       string `json:"name"`        //通联对方呼号
-    CallSign   string `json:"call_sign"`   //通联对方电台执照号码
+    Name       string `json:"name"`        //通联对方OP
+    CallSign   string `json:"call_sign"`   //通联对方呼号
     Comments   string `json:"comments"`    //通联备注信息
 }
 
